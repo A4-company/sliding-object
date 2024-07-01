@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Image with Arrow Keys</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container position-relative my-4 border p-0">
+        <img src="Pi.png" alt="Sliding Picture" id="sliding-image">
+    </div>
+    <div class="container text-center mt-3">
+        <div class="arrows">
+            <button id="up" class="btn btn-primary mx-1 arrow">&uarr;</button>
+            <div class="d-flex justify-content-center mt-2">
+                <button id="left" class="btn btn-primary mx-1 arrow">&larr;</button>
+                <button id="right" class="btn btn-primary mx-1 arrow">&rarr;</button>
+            </div>
+            <button id="down" class="btn btn-primary mx-1 arrow mt-2">&darr;</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
